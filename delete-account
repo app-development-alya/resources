@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Account Deletion</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 40px; }
+    .container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+    h1 { color: #333; }
+    p { line-height: 1.6; }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    a.button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Request Account Deletion</h1>
+    <p>If you would like to delete your account and all associated data, please click the button below. Your request will be processed within 48 hours.</p>
+    <a href="mailto:app-support@yourcompany.com?subject=Account Deletion Request" class="button">Request Deletion</a>
+    <p>If you are already in the app, you can also use the account deletion option directly in the app.</p>
+  </div>
+</body>
+</html>
